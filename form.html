@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/43c56bd043.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="">Home</a></li>
+                <li><a href="./form.html" class="">Form</a></li>
+                <li><a href="./table.html" class="">Courses</a></li>
+                <li><a href="./media.html" class="">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <p id="school">Already an AltSchooler? <a href="#">Sign in!</a></p>
+    </div>
+    <main>
+        <div class="AltSchool">
+            <div>
+                <img src="AltSchool!.png" alt="AltSchool!">
+            </div>
+            <div class="learn">
+                <p>Learn highly sought after skills without hassle.</p>
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="tell">
+                <p>Tel: 0800ALTSCHOOL</p>
+            </div>
+            <div class="copy">
+                <i class="fa-regular fa-copyright"></i>2024 AltSchool Africa. All rights reserved.
+            </div>
+        </div>
+
+        <form action="">
+            <div>
+                <h1>Signup</h1>
+            </div>
+            <div>
+                <p>Take the next steps to apply at AltSchool Africa</p>
+            </div>
+
+            <div class="one">
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required>
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Enter last name" required>
+                </div>
+            </div>
+
+            <div class="two">
+                <div>
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" id="DOB" name="DOB" required>
+                </div>
+            </div>
+
+            <div class="three">
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email address" required>
+                </div>
+
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="phonenumber" id="phonenumber" placeholder="08154387000" required>
+                </div>
+            </div>
+
+            <div class="four">
+                <div>
+                    <label for="country">Country</label>
+                    <select name="country" id="country" required>
+                        <option value="" disabled selected>Select your Country</option>
+                        <option value="usa">United States</option>
+                        <option value="canada">Canada</option>
+                        <option value="nigeria">Nigeria</option>
+                        <option value="ghana">Ghana</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="india">India</option>
+                        <!--Add more countries as needed-->
+                    </select>
+                </div>
+
+                <div>
+                    <label for="state">State/City of Residence</label>
+                    <input type="text" id="state" name="state" required placeholder="Enter City of Residence">
+                </div>
+            </div>
+
+            <div class="five">
+                <div>
+                    <label for="how">How did you hear about us?</label>
+                    <select name="how" id="how" required>
+                        <option value="" disabled selected>Select Channel</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="linkedin">Linkedin</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="billboard">Billboard</option>
+                        <option value="ig">Instagram</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="friend">Friend</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="six">
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter Password">
+                </div>
+
+                <div>
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required
+                        placeholder="Enter Password again">
+                </div>
+            </div>
+
+            <div class="foot">
+                By clicking continue, I agree to <a href="">Terms of Use</a> and I acknowledge that i have read the <a
+                    href="">Privacy Policy</a>
+            </div>
+
+            <button type="submit">Submit <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+    </main>
+</body>
+
+</html>

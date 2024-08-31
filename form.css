@@ -1,0 +1,233 @@
+body,
+p,
+h1 {
+  margin: 0;
+}
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+nav {
+  padding: 10px 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #3498db;
+}
+
+#school {
+  text-align: end;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.AltSchool {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.learn {
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+}
+
+.icon {
+  padding: 20px;
+  color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tell {
+  font-weight: lighter;
+  font-weight: 20px;
+}
+
+.copy {
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+form {
+  flex: 2;
+  padding: 20px;
+  background-color: #fff;
+  padding-right: 150px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one label,
+.two label,
+.three label,
+.four label,
+.six label {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.five label {
+  margin-bottom: 10px;
+  width: 670px;
+}
+
+.one input,
+.two input,
+.two select,
+.three input,
+.four input,
+.four select,
+.five select,
+.six input {
+  height: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  background-color: #f4f4f4;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  color: #000000;
+}
+
+::placeholder {
+  color: #be9b9b;
+}
+
+#gender,
+#DOB,
+#country,
+#how {
+  background-color: #f4f4f4;
+  border: none;
+}
+
+button[type="submit"] {
+  width: 650px;
+  height: 60px;
+}
+
+.foot {
+  font-weight: 550;
+  color: #0056b3;
+}
+
+.foot a {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .AltSchool {
+    display: none;
+  }
+
+  form {
+    flex: 1;
+    padding-right: 0;
+  }
+
+  #school {
+    display: none;
+  }
+
+  .icon,
+  .learn,
+  .tell,
+  .copy {
+    display: none;
+  }
+}

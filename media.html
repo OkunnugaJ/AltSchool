@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="">Home</a></li>
+                <li><a href="./form.html" class="">Form</a></li>
+                <li><a href="./table.html" class="">Courses</a></li>
+                <li><a href="./media.html" class="">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="cont">
+        <h1>Welcome to My World</h1>
+
+        <picture class="profile-picture">
+            <source media="(max-width: 480px)" srcset="image.jpg" alt="Small mobile profile picture">
+            <source media="(max-width: 1024px)" srcset="image.jpg" alt="Tablet profile picture">
+            <source media="(max-width: 1366px)" srcset="image.jpg" alt="Laptop profile picture">
+            <img src="image.jpg" alt="Fallback profile picture">
+        </picture>
+
+        <p>Hello! I'm a passionate individual with a love for technology, creativity, and making a positive impact. This
+            page showcases various aspects of my personality and skills using different media elements.</p>
+
+        <h2>My Inspirational Message</h2>
+        <div class="video-container">
+            <iframe width="1000" height="500" src="https://www.youtube.com/embed/tbnzAVRZ9Xc?si=-6iLDGDZRdpBsuc5"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>My Favorite Quote</h2>
+        <blockquote>
+            <p>"The only way to do great work is to love what you do." - Steve Jobs</p>
+        </blockquote>
+
+        <h2>Listen to This</h2>
+        <audio controls>
+            <source src="anthem-of-victory-111206.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+</body>
+
+</html>

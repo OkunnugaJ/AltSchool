@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about {
+  padding-top: 60px;
+  text-align: center;
+}
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  word-spacing: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+nav {
+  padding: 10px 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #3498db;
+}
+.content {
+  margin-top: 10px;
+}
+.section {
+  background: white;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0056b3;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+.scroll-top:hover {
+  background: #34495e;
+}
